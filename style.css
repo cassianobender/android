@@ -1,0 +1,132 @@
+*{
+   /*height: 100%;*/
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+   --cor0: black;
+   --cor1: White;
+   --fontpadrao: Arial, Helvetica, sans-serif; 
+}
+@font-face {
+    font-family: 'idroid';
+    src: url(idroid.otf);
+ }
+
+ body{
+    background-color: rgb(164, 223, 164);
+ }
+ main{
+    background-color: var(--cor1);
+    box-shadow: 0px 5px 6px 6px rgba(0, 0, 0, 0.082);
+    text-align: justify;
+    /*width: 900px; -- Nao responsivo
+      min-width: 320px; -- RESPONSIVO
+      max-width: 900px; -- RESPONSIVO*/
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px 15px;
+    border-bottom: 10px;
+    
+ }
+
+ header{
+    background-image: linear-gradient(to bottom, rgba(2, 118, 2, 0.413),rgb(0, 32, 0));
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+ }
+ header>p{
+   max-width: 500px;
+   margin: auto;
+ }
+ 
+
+ nav.header{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.694);
+    font-weight: bold;
+    font-size: 0.8em;
+    border-radius: 5px;
+ }
+
+ a{
+    color: rgba(255, 255, 255, 0.591);
+    text-decoration: none;
+    border: 3px;
+    padding: 3px;
+    border-radius: 5px;
+ }
+ nav>a:hover{
+    background-color: rgba(2, 163, 2, 0.267);
+    transition-duration: 0.4s;
+ }
+ 
+ h2, h3, h4{
+    font-family: 'idroid';
+    color: darkgreen;
+ }
+ h3{
+    background-image: linear-gradient(to right, rgb(164, 223, 164),white) 
+ }
+ span{
+    color: darkgreen;
+    font-weight: bold;
+ }
+ img{
+   margin: auto;
+   display: block;
+ }
+ .img{
+   width: 100%;
+ }
+
+ #ldiv{
+   background-color: rgba(144, 238, 144, 0.368);
+   border-top: -10px;
+   border-radius: 10px;
+   box-shadow: 0px 5px 6px 3px rgba(0, 0, 0, 0.082);
+ }
+ #divp{
+   padding-left: 15px;
+   padding-bottom: 10px;
+   padding-bottom: 10px;
+   padding-right: 15px;
+ }
+
+ h4{
+   background-color: green;
+   color: white;
+   padding: 5px;
+   border-top: -10px;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 10px 10px 0px 0px;
+   
+ }
+ footer{
+   text-align: center;
+   background-color: green;
+   margin: auto;
+   color: white;
+   border: 5px;
+ }
+ footer>p{
+   margin-bottom: -10px;
+ }
+ ul{
+   margin: 15px;
+   padding: 0px;
+   columns: 2;
+   
+ }
+ 
+ p{
+   text-indent: 20px;
+   line-height: 1.5em;
+ }
+ 
